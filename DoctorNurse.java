@@ -11,13 +11,15 @@ login(using doctorID)
 
   opens the javaFX login page
   asks user for id
-  
   checks if id is correct
   
     if true
       allow user access to adminPanel
     if false
       print error
+      
+ messageUser():
+  opens javaFX messaging page where the Doctor can select patient to view message history and send messages
 
 */
 
