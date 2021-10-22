@@ -20,3 +20,24 @@ login(using doctorID)
       print error
 
 */
+
+//Nurse Class creation
+/*
+
+NurseID - int
+
+functions:
+
+login(using nurseID)
+
+  opens the javaFX login page
+  asks user for id
+  
+  checks if id is correct
+  
+     if true
+      allow user access to adminPanel
+     if false
+      print error
+*/
+
