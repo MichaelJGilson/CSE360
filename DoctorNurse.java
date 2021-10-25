@@ -4,7 +4,7 @@
 // THIS IS THE FUNCTIONING PROTOTYPE FOR PHASE II REQUIREMENTS
 
 public class Doctor {
-  int doctorID; 
+  int adminID; 
 }
 /* Doc class will include the following functions:
 
@@ -20,16 +20,12 @@ login(using doctorID)
       allow user access to adminPanel
     if false
       print error
-      
- messageUser():
-  opens javaFX messaging page where the Doctor can select patient to view message history and send messages
-
 */
 
 //Nurse Class creation
 
 public class Nurse {
-  int NurseID;
+  int adminID;
 }
 /*
 functions:
