@@ -1,9 +1,12 @@
 // Header for the Doctor and Nurse Class File
 
 //Doctor Class creation
-/* Doc class will include the following functions and vars:
+// THIS IS THE FUNCTIONING PROTOTYPE FOR PHASE II REQUIREMENTS
 
-DoctorID - int
+public class Doctor {
+  int doctorID; 
+}
+/* Doc class will include the following functions:
 
 functions:
 
@@ -24,10 +27,11 @@ login(using doctorID)
 */
 
 //Nurse Class creation
+
+public class Nurse {
+  int NurseID;
+}
 /*
-
-NurseID - int
-
 functions:
 
 login(using nurseID)
