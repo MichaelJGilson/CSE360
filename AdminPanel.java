@@ -28,13 +28,14 @@ public void printTextField(String text) {
 }
 
 // function which checks if the user trying to access the message pane is authorized or not, if not it will print an error.
-public void messageAuth {
+public bool adminAuth {
   if(adminID instanceof Doctor) {
-    mesagePane();
+    return true;
   }
   else {
     String text = "Error: You do not have authorization."
     printTextField(String text)
+    return false;
     }
 }
 
