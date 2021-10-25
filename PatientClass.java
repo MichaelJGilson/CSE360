@@ -16,6 +16,6 @@ functions:
   opens javaFX messaging page where the Doctor can select patient to view message history and send messages
   
  printRecord():
-  patient previous medical records like their medications and immunizations would be stored here.
+  patient previous medical records like their medications and immunizations would be stored here and can be printed if needed.
 
 */
