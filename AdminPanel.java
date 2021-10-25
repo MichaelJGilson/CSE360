@@ -1,8 +1,14 @@
-package GUIPackage;
+// Header for the Admin Panel
 
-import java.awt.*;
-import java.io.*;
-import javax.swing.*;
+// Admin Panel Class creation
+/*
+LogIn ID - int
+Password - int
 
-public class AdminPanel extends JPanelwithBackground{
-  
+functions:
+
+IF(LoginID == EnteredUsername && Password == EnteredPasswors) THEN
+if True
+  print "Login Successful"
+Else
+  print "Login Failed"
