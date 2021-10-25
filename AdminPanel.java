@@ -20,8 +20,22 @@ if True
   print "Login Successful"
 Else
   print "Login Failed"
+*/
+public void printTextField(String text) {
+    textArea.setText(text);
+}
 
-once logged in, using javafx - the admin panel will display the following panes:
+public void messageAuth {
+  if(adminID instanceof Doctor) {
+    mesagePane();
+  }
+  else {
+    String text = "Error: You do not have authorization."
+    printTextField(String text)
+    }
+}
+
+/* once logged in, using javafx - the admin panel will display the following panes:
 
 display Admin pane which includes:
   nurse tab
@@ -29,4 +43,4 @@ display Admin pane which includes:
     message button
     upload medical record button
   print button
-  and the options menu
+  and the options menu */
