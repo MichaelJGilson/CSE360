@@ -21,10 +21,13 @@ if True
 Else
   print "Login Failed"
 */
+
+//Code which outputs a string to a text box are (for system messages)
 public void printTextField(String text) {
     textArea.setText(text);
 }
 
+// function which checks if the user trying to access the message pane is authorized or not, if not it will print an error.
 public void messageAuth {
   if(adminID instanceof Doctor) {
     mesagePane();
