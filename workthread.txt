@@ -1,1 +1,18 @@
+AdminPanel.java
+__________________
+
+
+
+DoctorNurse.java
+____________________
+
+
+
+PatientClass.java
+___________________
+
+
+
+PatientPanel.java
+_____________________
 
