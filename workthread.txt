@@ -11,11 +11,17 @@ function which checks if the user trying to access the message pane is authorize
 DoctorNurse.java
 ____________________
 
+function for logging in with DoctorID and gaining access to the AdminPanel
+
+function for logging in with NurseID and gaining access to AdminPanel
 
 
 PatientClass.java
 ___________________
 
+function for messaging doctor
+
+function for printing record
 
 
 PatientPanel.java
