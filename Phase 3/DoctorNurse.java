@@ -12,8 +12,8 @@ public class DoctorNurse extends User{
 	  ArrayList<PatientClass> patientList;
 	  
 	  //constructor
-	  public DoctorNurse(String name, String email, String phoneNum, String address, String password, String hosptialName){
-		  super(name, email, phoneNum, address, password);
+	  public DoctorNurse(String name, String email, String phoneNum, String address, String password, String dateOfBirth, String dateOfVisit, String hosptialName){
+		  super(name, email, phoneNum, address, password, dateOfBirth, dateOfVisit);
 		  hospital = hosptialName;
 		  patientList =  new ArrayList<PatientClass>();
 	  }
