@@ -3,9 +3,35 @@
 //Doctor Class creation
 // THIS IS THE FUNCTIONING PROTOTYPE FOR PHASE II REQUIREMENTS
 
-public class Doctor {
-  int adminID; 
+import java.util.*;
+
+public class DoctorNurse extends User{
+	
+	  int adminID; 
+	  String hospital, specialization;
+	  ArrayList<PatientClass> patientList;
+	  
+	  //constructor
+	  public DoctorNurse(String name, String email, String phoneNum, String address, String password, String hosptialName){
+		  super(name, email, phoneNum, address, password);
+		  hospital = hosptialName;
+		  patientList =  new ArrayList<PatientClass>();
+	  }
+	  
+	  //getters
+	  public String getHospital(){
+		  return hospital;
+	  }
+	  public ArrayList<PatientClass> getPatientList(){
+		  return patientList;
+	  }
+	  
+	  //setters
+	  public void setHosptial(String newHospital){
+		  hospital = newHospital;
+	  }
 }
+
 /* Doc class will include the following functions:
 
 functions:
@@ -24,9 +50,12 @@ login(using doctorID)
 
 //Nurse Class creation
 
+/*
 public class Nurse {
   int adminID;
 }
+*/
+
 /*
 functions:
 
