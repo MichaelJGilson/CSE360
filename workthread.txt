@@ -1,6 +1,11 @@
 AdminPanel.java
 __________________
 
+function to read file of list of admins
+
+function for logging in, being denied or approved when putting in login details.
+
+function which checks if the user trying to access the message pane is authorized or not, if not it will print an error.
 
 
 DoctorNurse.java
