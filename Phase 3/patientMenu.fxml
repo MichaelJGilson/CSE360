@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Pane prefHeight="652.0" prefWidth="711.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar layoutX="1.0" layoutY="1.0" prefHeight="32.0" prefWidth="600.0">
+               <menus>
+                  <Menu mnemonicParsing="false" text="File">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Open File" />
+                        <MenuItem mnemonicParsing="false" text="Save File" />
+                        <MenuItem mnemonicParsing="false" text="Create New File" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Edit">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Help">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+            <MenuButton layoutX="20.0" layoutY="42.0" mnemonicParsing="false" text="Options">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Log In" />
+                  <MenuItem mnemonicParsing="false" text="Patient Log In" />
+               </items>
+            </MenuButton>
+            <TextField layoutX="32.0" layoutY="149.0" promptText="Name" text="Huxley Cochran" />
+            <TextField layoutX="32.0" layoutY="267.0" promptText="Email" />
+            <TextField layoutX="32.0" layoutY="208.0" promptText="Phone Number" text="6022837291" />
+            <Button layoutX="232.0" layoutY="149.0" mnemonicParsing="false" text="Update" />
+            <Button layoutX="232.0" layoutY="208.0" mnemonicParsing="false" text="Update" />
+            <Button layoutX="232.0" layoutY="267.0" mnemonicParsing="false" text="Update" />
+            <MenuButton layoutX="362.0" layoutY="187.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="189.0" text="Date of Visit">
+              <items>
+                <MenuItem mnemonicParsing="false" text="09/12/2021" />
+                <MenuItem mnemonicParsing="false" text="04/28/2021" />
+              </items>
+            </MenuButton>
+            <Button layoutX="379.0" layoutY="149.0" mnemonicParsing="false" text="Download Summary" />
+            <TextArea layoutX="54.0" layoutY="370.0" prefHeight="169.0" prefWidth="494.0" />
+            <TextField layoutX="54.0" layoutY="539.0" prefHeight="31.0" prefWidth="430.0" text="Hello Doctor, recently I have been having thiss issue where..." />
+            <Button layoutX="483.0" layoutY="539.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" text="Send" />
+            <TextField layoutX="54.0" layoutY="376.0" prefHeight="31.0" prefWidth="294.0" text="Hello Huxley, what seems to be the issue?" />
+         </children>
+      </Pane>
+   </top>
+</BorderPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="210.0" prefWidth="272.0" text="Patient Login Page" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="187.0" prefWidth="270.0">
+         <children>
+            <Pane prefHeight="168.0" prefWidth="272.0">
+               <children>
+                  <TextField alignment="CENTER" layoutX="43.0" layoutY="31.0" promptText="Full Name" />
+                  <Button layoutX="108.0" layoutY="128.0" mnemonicParsing="false" text="Login" />
+                  <TextField alignment="CENTER" layoutX="43.0" layoutY="77.0" promptText="Date Of Birth" />
+               </children>
+            </Pane>
+         </children></AnchorPane>
+  </content>
+</TitledPane>
