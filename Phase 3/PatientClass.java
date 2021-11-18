@@ -7,6 +7,7 @@ public class PatientClass extends User{
 	//ArrayList<MedHist> medicalHistory;
 	DoctorNurse associatedDoctorNurse;
 	ArrayList<String> messageList;
+	String appointmentDate;
 	
 	public PatientClass(String name, String email, String phoneNum, String address, String password, String dateOfBirth, String dateOfVisit, Pharmacy pharmacyName, DoctorNurse docNurse){
 		super(name, email, phoneNum, address, password, dateOfBirth, dateOfVisit);
@@ -29,6 +30,10 @@ public class PatientClass extends User{
 	
 	public ArrayList<String> getMessageList(){
 		return messageList;
+	}
+	
+	public String getAppointmentTime() {
+		return appointmentDate;
 	}
 	
 	//acts as an inbox of messages 
