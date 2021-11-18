@@ -1,7 +1,5 @@
 package hospitalCSE360;
 
-import java.util.Date;
-
 public class MedHist{
 	
 	private String username;
