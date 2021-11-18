@@ -28,6 +28,7 @@ public class PatientClass extends User{
 		return associatedDoctorNurse;
 	}
 	
+	
 	public ArrayList<String> getMessageList(){
 		return messageList;
 	}
@@ -35,6 +36,11 @@ public class PatientClass extends User{
 	public String getAppointmentTime() {
 		return appointmentDate;
 	}
+	
+	public String setAppointmentTime(String appointmentDate) {
+		this.appointmentDate = appointmentDate;
+	}
+	
 	
 	//acts as an inbox of messages 
 	public void messageInbox(ArrayList<String> inbox){
