@@ -26,6 +26,14 @@ public class DoctorNurse extends User{
 		  return patientList;
 	  }
 	  
+	  public String getFullName(){
+		return name;
+	  }
+	
+	  public String getSpeciality() {
+		return specialization;
+	}
+	
 	  //setters
 	  public void setHosptial(String newHospital){
 		  hospital = newHospital;
